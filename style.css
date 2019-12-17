@@ -21,14 +21,7 @@ a{
 	text-decoration: none;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  width: 200px
-  filter: yellow;
-}
+
 
 
 .white-card {
@@ -38,6 +31,15 @@ img {
     text-align: center;
     border: 3px solid;
     box-shadow: 18px 18px 2px 1px blue;
+}
+
+.yellow-filter {
+	background-image: linear-gradient(0deg, rgba(255, 255, 0, 0.7) 0%, rgba(255, 255, 0, 0.7) 50%), url("images/evolena.jpg");
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+
 }
 
 .container{
